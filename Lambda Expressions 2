@@ -14,7 +14,6 @@ class Solution {
                 right--;
             }
 
-            // Swap odd on left with even on right
             if (left < right) {
                 int temp = nums[left];
                 nums[left] = nums[right];
